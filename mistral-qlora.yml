@@ -9,6 +9,7 @@ strict: false
 
 datasets:
   - path: CollectiveCognition/chats-data-2023-10-16 # small dataset for testing
+    ds_type: json
     type: sharegpt
 dataset_prepared_path: last_run_prepared
 val_set_size: 0.01
